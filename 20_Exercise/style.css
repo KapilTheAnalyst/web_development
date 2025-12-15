@@ -1,0 +1,19 @@
+
+
+/* make 5 para inside div*/
+/* first paragraph have background color yellow
+and text color red */
+/* other paragraph have 
+background color blue and text color white */
+/* make a css class */
+div p:first-child{
+    background-color:yellow;
+    color:red ;
+}
+
+div p{
+    background-color:blue;
+    color:white;  
+
+}
+

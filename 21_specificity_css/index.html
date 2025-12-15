@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+
+        /* specificity of important selector in largest that 1000000 */
+        /* specificity of inline selector in 1000 */
+        /* specificity of id selector is 100 */
+        /* specificity of class and attribute selector in 10 */
+        /* The specificity of element selector say 1 */
+        /* specificity of universal selector is 0 */
+        
+        .yellow{
+            color: yellow;
+        }
+        .cred{
+            color:green;
+        }
+        .cpurple{
+            color: purple;
+        }
+        specificity of universal selector is 0 */
+        h1{
+            color:aqua;
+        }
+        [data-x=a]{
+            color:red ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">Css</h1>
+    </div>
+    
+</body>
+</html>

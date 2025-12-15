@@ -1,10 +1,32 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt; 
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Inside a Box</title>
+    <style>
+        .outer-box {
+            width: 300px;
+            height: 300px;
+            background-color: #e0e0e0;
+            border: 3px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner-box {
+            width: 150px;
+            height: 150px;
+            background-color: #4caf50;
+            border: 2px solid #1b5e20;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+
+</body>
+</html>

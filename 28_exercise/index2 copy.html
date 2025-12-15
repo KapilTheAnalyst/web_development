@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(207, 154, 154);
+            padding:20px;
+            display:flex;
+        }
+
+        .card {
+            
+            background-color: white;
+            width: 244px;
+            height: 300px;
+            border-radius: 7px;
+            padding:0 0 0 px;
+            margin:2px;
+        }
+
+        .image {
+            padding: 4px;
+            /* border-radius:7px; */
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 6px 10px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .content p {
+            font-size: 15px;
+            color: gray;
+
+
+        }
+
+        .capsules {
+            padding: 0 34px 0 14px;
+        }
+
+        .capsules span {
+            font-size: 12px;
+            padding: 0px 6px;
+            border: 1px solid gray;
+            border-radius: 7px;
+
+        }
+        .button{
+            text-align:center;
+            
+        }
+        .button button{
+            padding:3px 7px;
+            border-radius:14px;
+            background-color : rgb(199, 234, 248);
+            font-size: 15px;
+            font-weight:bold;
+            color:rgb(98, 98, 177);
+            cursor:pointer;
+        }
+        .button button:hover{
+            background-color:rgb(150  , 153, 170);
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="236" height="125" src="lake.jpg" alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Lake View</h2>
+            <p>This is a lake in sri nagar
+                (Jammu Kashmir) India.
+                Every year visitors visit thsi lake .</p>
+
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="image">
+            <img width="236" height="125" src="lake.jpg" alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Lake View</h2>
+            <p>This is a lake in sri nagar
+                (Jammu Kashmir) India.
+                Every year visitors visit thsi lake .</p>
+
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
